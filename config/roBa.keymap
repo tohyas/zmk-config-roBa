@@ -60,11 +60,13 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
         encoder_msc_down_up: encoder_msc_down_up {
             compatible = "zmk,behavior-sensor-rotate";
             label = "ENCODER_MSC_DOWN_UP";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+
             tap-ms = <20>;
         };
     };
@@ -90,6 +92,8 @@
 &kp LEFT_SHIFT  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LESS_THAN         &kp GREATER_THAN       &trans      &trans     &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp PIPE
 &trans          &trans            &trans             &trans                &trans                 &trans      &trans     &trans                                                   &kp F12
             >;
+
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         FUNCTION {
@@ -99,6 +103,8 @@
 &kp F1           &kp F2             &kp F3           &kp F4           &kp F5        &kp F11                      &kp F12         &kp F6            &kp F7     &kp F8        &kp F9                &kp F10
 &trans           &trans             &trans           &trans           &trans        &trans                       &trans          &trans                                                           &kp PIPE
             >;
+
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         ARROW {
