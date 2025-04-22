@@ -99,10 +99,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH         &kp DOLLAR       &kp PERCENT                                                &kp SINGLE_QUOTE  &kp CARET  &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH        &kp KP_NUMBER_4    &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp AT_SIGN       &kp PLUS   &kp ASTERISK  &kp QUESTION          &kp PERCENT
-&kp F1           &kp F2             &kp F3           &kp F4           &kp F5        &kp F11                      &kp F12         &kp F6            &kp F7     &kp F8        &kp F9                &kp F10
-&trans           &trans             &trans           &trans           &trans        &trans                       &trans          &trans                                                           &kp PIPE
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR  &kp PERCENT                                                &kp SINGLE_QUOTE  &kp CARET  &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH        &kp SEMI           &kp COLON  &kp GRAVE   &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp AT_SIGN       &kp PLUS   &kp ASTERISK  &kp QUESTION          &kp PERCENT
+&kp F1           &kp F2             &kp F3     &kp F4      &kp F5        &kp F11                      &kp F12         &kp F6            &kp F7     &kp F8        &kp F9                &kp F10
+&trans           &trans             &trans     &trans      &trans        &trans                       &trans          &trans                                                           &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
