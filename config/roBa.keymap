@@ -90,7 +90,7 @@
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4          &kp NUMBER_5                                  &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
 &kp SLASH       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &kp COLON  &kp PAGE_UP    &trans        &kp UP_ARROW  &trans        &kp BACKSLASH
-&kp LEFT_SHIFT  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LESS_THAN         &kp GREATER_THAN       &trans      &trans     &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp PIPE
+&kp LEFT_SHIFT  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LESS_THAN         &kp GREATER_THAN       &trans      &kp EQUAL  &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp PIPE
 &trans          &trans            &trans             &trans                &trans                 &trans      &trans     &trans                                                   &kp F12
             >;
 
