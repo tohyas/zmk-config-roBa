@@ -77,10 +77,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R                   &kp T                                          &kp Y        &kp U  &kp I      &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                   &kp G        &kp LS(LG(S))      &kp BACKSLASH  &kp H        &kp J  &kp K      &kp L    &kp MINUS
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                   &kp B        &kp TAB            &kp COLON      &kp N        &kp M  &kp COMMA  &kp DOT  &mt SLASH RIGHT_SHIFT
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 LANG2  &lt 2 SPACE  &lt 3 LANG1        &kp BACKSPACE  &lt 1 ENTER                             &lt 6 DELETE
+&mt NUMBER_1 Q    &mt NUMBER_2 W      &mt NUMBER_3 E       &mt NUMBER_4 R          &mt N5 T                                                    &mt NUMBER_6 Y      &mt N7 U             &mt N8 I         &mt N9 O        &mt N0 P
+&mt SLASH A       &mt LEFT_BRACKET S  &mt RIGHT_BRACKET D  &mt LEFT_BRACE F        &mt RIGHT_BRACE G   &kp LS(LG(S))      &mt EQUAL BACKSLASH  &mt AT_SIGN H       &mt PLUS J           &mt ASTERISK K   &mt QUESTION L  &mt UNDER MINUS
+&mt LEFT_SHIFT Z  &mt LC(C) X         &mt LC(V) C          &mt LESS_THAN V         &mt GREATER_THAN B  &kp TAB            &mt TILDE COLON      &mt SINGLE_QUOTE N  &mt DOUBLE_QUOTES M  &mt CARET COMMA  &mt DOLLAR DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN        &kp LEFT_ALT         &lt_to_layer_0 1 LANG2  &lt 2 SPACE         &lt 3 LANG1        &kp BACKSPACE        &lt 3 ENTER                                                               &lt 6 DELETE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
@@ -88,10 +88,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2      &kp NUMBER_3       &kp NUMBER_4          &kp NUMBER_5                                  &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp SLASH       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans      &kp COLON  &kp PAGE_UP    &trans        &kp UP_ARROW  &trans        &kp BACKSLASH
-&kp LEFT_SHIFT  &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp LESS_THAN         &kp GREATER_THAN       &trans      &kp EQUAL  &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp PIPE
-&trans          &trans            &trans             &trans                &trans                 &trans      &trans     &trans                                                   &kp F12
+&kp NUMBER_1    &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4    &kp NUMBER_5                                 &kp NUMBER_6   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp SLASH       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp LEFT_BRACE  &kp RIGHT_BRACE   &kp K_MUTE      &kp EQUAL  &kp PAGE_UP    &trans        &kp UP_ARROW  &trans        &kp BACKSLASH
+&kp LEFT_SHIFT  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LESS_THAN   &kp GREATER_THAN  &trans          &kp COLON  &kp PAGE_DOWN  &kp LEFT      &kp DOWN      &kp RIGHT     &kp PIPE
+&trans          &trans                &trans                 &trans          &trans            &trans          &trans     &trans                                                   &kp F12
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_DOWN C_VOLUME_UP>;
@@ -99,10 +99,10 @@
 
         FUNCTION {
             bindings = <
-&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR  &kp PERCENT                                                &kp SINGLE_QUOTE  &kp CARET  &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp SLASH        &kp SEMI           &kp COLON  &kp GRAVE   &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp AT_SIGN       &kp PLUS   &kp ASTERISK  &kp QUESTION          &kp PERCENT
-&kp F1           &kp F2             &kp F3     &kp F4      &kp F5        &kp F11                      &kp F12         &kp F6            &kp F7     &kp F8        &kp F9                &kp F10
-&trans           &trans             &trans     &trans      &trans        &trans                       &trans          &trans                                                           &kp PIPE
+&kp EXCLAMATION  &kp DOUBLE_QUOTES  &kp HASH   &kp DOLLAR  &kp PERCENT                           &kp AMPERSAND  &kp APOS  &kp TILDE     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&kp SLASH        &kp SEMI           &kp COLON  &kp GRAVE   &kp ASTERISK  &trans       &kp CARET  &kp AT_SIGN    &kp PLUS  &kp ASTERISK  &kp QUESTION          &kp PERCENT
+&kp F1           &kp F2             &kp F3     &kp F4      &kp F5        &kp F11      &kp F12    &kp F6         &kp F7    &kp F8        &kp F9                &kp F10
+&trans           &trans             &trans     &trans      &trans        &trans       &trans     &trans                                                       &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_DEC C_BRIGHTNESS_INC>;
