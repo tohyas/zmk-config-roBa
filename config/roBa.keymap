@@ -77,10 +77,10 @@
 
         default_layer {
             bindings = <
-&mt NUMBER_1 Q    &mt NUMBER_2 W      &mt NUMBER_3 E       &mt NUMBER_4 R          &mt N5 T                                                                        &mt NUMBER_6 Y      &mt N7 U             &mt N8 I         &mt N9 O        &mt N0 P
-&mt SLASH A       &mt LEFT_BRACKET S  &mt RIGHT_BRACKET D  &mt LEFT_BRACE F        &mt RIGHT_BRACE G   &mt LS(LG(RIGHT_SHIFT)) LS(LG(S))      &mt EQUAL BACKSLASH  &mt AT_SIGN H       &mt PLUS J           &mt ASTERISK K   &mt QUESTION L  &mt UNDER MINUS
-&mt LEFT_SHIFT Z  &mt LC(C) X         &mt LC(V) C          &mt LESS_THAN V         &mt GREATER_THAN B  &kp TAB                                &mt TILDE COLON      &mt SINGLE_QUOTE N  &mt DOUBLE_QUOTES M  &mt CARET COMMA  &mt DOLLAR DOT  &lt 3 SLASH
-&kp LCTRL         &kp LEFT_WIN        &kp LEFT_ALT         &lt_to_layer_0 1 LANG2  &lt 2 SPACE         &lt 3 LANG1                            &kp BACKSPACE        &lt 6 ENTER                                                               &lt 5 DELETE
+&mt NUMBER_1 Q    &mt NUMBER_2 W      &mt NUMBER_3 E       &mt NUMBER_4 R          &mt N5 T                                                &mt NUMBER_6 Y      &mt N7 U             &mt N8 I         &mt N9 O        &mt N0 P
+&mt SLASH A       &mt LEFT_BRACKET S  &mt RIGHT_BRACKET D  &mt LEFT_BRACE F        &mt RIGHT_BRACE G   &kt LS(LG(S))      &mt PLUS EQUAL   &mt AT_SIGN H       &mt BACKSLASH J      &mt ASTERISK K   &mt QUESTION L  &mt UNDER MINUS
+&mt LEFT_SHIFT Z  &mt LC(C) X         &mt LC(V) C          &mt LESS_THAN V         &mt GREATER_THAN B  &kp TAB            &mt TILDE COLON  &mt SINGLE_QUOTE N  &mt DOUBLE_QUOTES M  &mt CARET COMMA  &mt DOLLAR DOT  &lt 3 SLASH
+&kp LCTRL         &kp LEFT_WIN        &kp LEFT_ALT         &lt_to_layer_0 1 LANG2  &lt 2 SPACE         &lt 3 LANG1        &kp BACKSPACE    &lt 6 ENTER                                                               &lt 5 DELETE
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
